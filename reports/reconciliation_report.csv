@@ -1,0 +1,121 @@
+id,transaction_id,reconciliation_status,issues,severity,severity_reason,amount_at_risk,created_at
+1,T000001,MATCHED,None,LOW,No reconciliation exception found.,238.69,2026-06-05 16:12:19
+2,T000002,MATCHED,None,LOW,No reconciliation exception found.,33.0,2026-06-05 16:12:19
+3,T000003,MATCHED,None,LOW,No reconciliation exception found.,154.46,2026-06-05 16:12:19
+4,T000004,MATCHED,None,LOW,No reconciliation exception found.,513.13,2026-06-05 16:12:19
+5,T000005,MATCHED,None,LOW,No reconciliation exception found.,813.71,2026-06-05 16:12:19
+6,T000006,MATCHED,None,LOW,No reconciliation exception found.,669.11,2026-06-05 16:12:19
+7,T000007,MATCHED,None,LOW,No reconciliation exception found.,801.97,2026-06-05 16:12:19
+8,T000008,MATCHED,None,LOW,No reconciliation exception found.,833.54,2026-06-05 16:12:19
+9,T000009,MATCHED,None,LOW,No reconciliation exception found.,0.0,2026-06-05 16:12:19
+10,T000010,MATCHED,None,LOW,No reconciliation exception found.,599.05,2026-06-05 16:12:19
+11,T000011,MATCHED,None,LOW,No reconciliation exception found.,650.17,2026-06-05 16:12:19
+12,T000012,EXCEPTION,Missing bank record,HIGH,Missing bank record for internal amount $867.70.,867.7,2026-06-05 16:12:19
+13,T000013,MATCHED,None,LOW,No reconciliation exception found.,113.38,2026-06-05 16:12:19
+14,T000014,MATCHED,None,LOW,No reconciliation exception found.,629.49,2026-06-05 16:12:19
+15,T000015,MATCHED,None,LOW,No reconciliation exception found.,433.3,2026-06-05 16:12:19
+16,T000016,MATCHED,None,LOW,No reconciliation exception found.,223.66,2026-06-05 16:12:19
+17,T000017,MATCHED,None,LOW,No reconciliation exception found.,6077.23,2026-06-05 16:12:19
+18,T000018,EXCEPTION,Amount mismatch,LOW,Amount mismatch difference is $7.25.,65.1,2026-06-05 16:12:19
+19,T000019,MATCHED,None,LOW,No reconciliation exception found.,243.32,2026-06-05 16:12:19
+20,T000020,MATCHED,None,LOW,No reconciliation exception found.,822.5,2026-06-05 16:12:19
+21,T000021,MATCHED,None,LOW,No reconciliation exception found.,153.82,2026-06-05 16:12:19
+22,T000022,MATCHED,None,LOW,No reconciliation exception found.,156.3,2026-06-05 16:12:19
+23,T000023,MATCHED,None,LOW,No reconciliation exception found.,402.91,2026-06-05 16:12:19
+24,T000024,MATCHED,None,LOW,No reconciliation exception found.,883.14,2026-06-05 16:12:19
+25,T000025,EXCEPTION,Merchant mismatch,MEDIUM,Merchant mismatch can indicate aliasing or settlement mapping risk.,356.09,2026-06-05 16:12:19
+26,T000026,MATCHED,None,LOW,No reconciliation exception found.,846.11,2026-06-05 16:12:19
+27,T000027,MATCHED,None,LOW,No reconciliation exception found.,789.25,2026-06-05 16:12:19
+28,T000028,MATCHED,None,LOW,No reconciliation exception found.,536.37,2026-06-05 16:12:19
+29,T000029,MATCHED,None,LOW,No reconciliation exception found.,351.5,2026-06-05 16:12:19
+30,T000030,MATCHED,None,LOW,No reconciliation exception found.,714.01,2026-06-05 16:12:19
+31,T000031,MATCHED,None,LOW,No reconciliation exception found.,749.71,2026-06-05 16:12:19
+32,T000032,MATCHED,None,LOW,No reconciliation exception found.,30.29,2026-06-05 16:12:19
+33,T000033,EXCEPTION,Timestamp mismatch greater than 5 minutes,LOW,Timestamp mismatch is 17.0 minutes.,176.21,2026-06-05 16:12:19
+34,T000034,MATCHED,None,LOW,No reconciliation exception found.,9211.07,2026-06-05 16:12:19
+35,T000035,MATCHED,None,LOW,No reconciliation exception found.,636.21,2026-06-05 16:12:19
+36,T000036,MATCHED,None,LOW,No reconciliation exception found.,291.49,2026-06-05 16:12:19
+37,T000037,MATCHED,None,LOW,No reconciliation exception found.,489.53,2026-06-05 16:12:19
+38,T000038,MATCHED,None,LOW,No reconciliation exception found.,51.53,2026-06-05 16:12:19
+39,T000039,MATCHED,None,LOW,No reconciliation exception found.,214.15,2026-06-05 16:12:19
+40,T000040,MATCHED,None,LOW,No reconciliation exception found.,306.89,2026-06-05 16:12:19
+41,T000041,EXCEPTION,Status mismatch,HIGH,Internal status does not match expected bank settlement status.,729.4,2026-06-05 16:12:19
+42,T000042,MATCHED,None,LOW,No reconciliation exception found.,83.9,2026-06-05 16:12:19
+43,T000043,MATCHED,None,LOW,No reconciliation exception found.,446.9,2026-06-05 16:12:19
+44,T000044,MATCHED,None,LOW,No reconciliation exception found.,-73.63,2026-06-05 16:12:19
+45,T000045,MATCHED,None,LOW,No reconciliation exception found.,931.84,2026-06-05 16:12:19
+46,T000046,MATCHED,None,LOW,No reconciliation exception found.,253.07,2026-06-05 16:12:19
+47,T000047,EXCEPTION,Missing bank record,HIGH,Missing bank record for internal amount $451.03.,451.03,2026-06-05 16:12:19
+48,T000048,MATCHED,None,LOW,No reconciliation exception found.,593.3,2026-06-05 16:12:19
+49,T000049,MATCHED,None,LOW,No reconciliation exception found.,109.83,2026-06-05 16:12:19
+50,T000050,MATCHED,None,LOW,No reconciliation exception found.,766.81,2026-06-05 16:12:19
+51,T000051,MATCHED,None,LOW,No reconciliation exception found.,13491.65,2026-06-05 16:12:19
+52,T000052,MATCHED,None,LOW,No reconciliation exception found.,588.19,2026-06-05 16:12:19
+53,T000053,MATCHED,None,LOW,No reconciliation exception found.,544.8,2026-06-05 16:12:19
+54,T000054,MATCHED,None,LOW,No reconciliation exception found.,328.6,2026-06-05 16:12:19
+55,T000055,MATCHED,None,LOW,No reconciliation exception found.,616.44,2026-06-05 16:12:19
+56,T000056,MATCHED,None,LOW,No reconciliation exception found.,508.13,2026-06-05 16:12:19
+57,T000057,MATCHED,None,LOW,No reconciliation exception found.,305.25,2026-06-05 16:12:19
+58,T000058,MATCHED,None,LOW,No reconciliation exception found.,347.95,2026-06-05 16:12:19
+59,T000059,MATCHED,None,LOW,No reconciliation exception found.,548.77,2026-06-05 16:12:19
+60,T000060,MATCHED,None,LOW,No reconciliation exception found.,77.79,2026-06-05 16:12:19
+61,T000061,MATCHED,None,LOW,No reconciliation exception found.,77.79,2026-06-05 16:12:19
+62,T000062,MATCHED,None,LOW,No reconciliation exception found.,900.63,2026-06-05 16:12:19
+63,T000063,MATCHED,None,LOW,No reconciliation exception found.,392.82,2026-06-05 16:12:19
+64,T000064,EXCEPTION,Amount mismatch,LOW,Amount mismatch difference is $12.75.,630.83,2026-06-05 16:12:19
+65,T000065,MATCHED,None,LOW,No reconciliation exception found.,713.52,2026-06-05 16:12:19
+66,T000066,MATCHED,None,LOW,No reconciliation exception found.,83.78,2026-06-05 16:12:19
+67,T000067,MATCHED,None,LOW,No reconciliation exception found.,496.86,2026-06-05 16:12:19
+68,T000068,MATCHED,None,LOW,No reconciliation exception found.,11651.17,2026-06-05 16:12:19
+69,T000069,MATCHED,None,LOW,No reconciliation exception found.,312.52,2026-06-05 16:12:19
+70,T000070,MATCHED,None,LOW,No reconciliation exception found.,597.14,2026-06-05 16:12:19
+71,T000071,EXCEPTION,Timestamp mismatch greater than 5 minutes,LOW,Timestamp mismatch is 17.0 minutes.,760.95,2026-06-05 16:12:19
+72,T000072,MATCHED,None,LOW,No reconciliation exception found.,618.14,2026-06-05 16:12:19
+73,T000073,MATCHED,None,LOW,No reconciliation exception found.,369.34,2026-06-05 16:12:19
+74,T000074,MATCHED,None,LOW,No reconciliation exception found.,948.97,2026-06-05 16:12:19
+75,T000075,MATCHED,None,LOW,No reconciliation exception found.,546.63,2026-06-05 16:12:19
+76,T000076,MATCHED,None,LOW,No reconciliation exception found.,126.92,2026-06-05 16:12:19
+77,T000077,EXCEPTION,Merchant mismatch,MEDIUM,Merchant mismatch can indicate aliasing or settlement mapping risk.,78.49,2026-06-05 16:12:19
+78,T000078,MATCHED,None,LOW,No reconciliation exception found.,829.78,2026-06-05 16:12:19
+79,T000079,MATCHED,None,LOW,No reconciliation exception found.,425.95,2026-06-05 16:12:19
+80,T000080,MATCHED,None,LOW,No reconciliation exception found.,238.03,2026-06-05 16:12:19
+81,T000081,MATCHED,None,LOW,No reconciliation exception found.,608.91,2026-06-05 16:12:19
+82,T000082,MATCHED,None,LOW,No reconciliation exception found.,609.88,2026-06-05 16:12:19
+83,T000083,EXCEPTION,Missing bank record,HIGH,Missing bank record for internal amount $346.14.,346.14,2026-06-05 16:12:19
+84,T000084,MATCHED,None,LOW,No reconciliation exception found.,579.86,2026-06-05 16:12:19
+85,T000085,MATCHED,None,LOW,No reconciliation exception found.,8238.49,2026-06-05 16:12:19
+86,T000086,MATCHED,None,LOW,No reconciliation exception found.,480.69,2026-06-05 16:12:19
+87,T000087,MATCHED,None,LOW,No reconciliation exception found.,140.59,2026-06-05 16:12:19
+88,T000088,EXCEPTION,Status mismatch,HIGH,Internal status does not match expected bank settlement status.,558.66,2026-06-05 16:12:19
+89,T000089,MATCHED,None,LOW,No reconciliation exception found.,-23.15,2026-06-05 16:12:19
+90,T000090,MATCHED,None,LOW,No reconciliation exception found.,374.1,2026-06-05 16:12:19
+91,T000091,MATCHED,None,LOW,No reconciliation exception found.,212.67,2026-06-05 16:12:19
+92,T000092,MATCHED,None,LOW,No reconciliation exception found.,212.67,2026-06-05 16:12:19
+93,T000093,MATCHED,None,LOW,No reconciliation exception found.,211.43,2026-06-05 16:12:19
+94,T000094,MATCHED,None,LOW,No reconciliation exception found.,244.12,2026-06-05 16:12:19
+95,T000095,MATCHED,None,LOW,No reconciliation exception found.,127.41,2026-06-05 16:12:19
+96,T000096,MATCHED,None,LOW,No reconciliation exception found.,693.06,2026-06-05 16:12:19
+97,T000097,MATCHED,None,LOW,No reconciliation exception found.,77.23,2026-06-05 16:12:19
+98,T000098,MATCHED,None,LOW,No reconciliation exception found.,484.23,2026-06-05 16:12:19
+99,T000099,EXCEPTION,Amount mismatch,LOW,Amount mismatch difference is $12.75.,399.86,2026-06-05 16:12:19
+100,T000100,MATCHED,None,LOW,No reconciliation exception found.,98.96,2026-06-05 16:12:19
+101,T000101,MATCHED,None,LOW,No reconciliation exception found.,825.74,2026-06-05 16:12:19
+102,T000102,MATCHED,None,LOW,No reconciliation exception found.,7790.68,2026-06-05 16:12:19
+103,T000103,MATCHED,None,LOW,No reconciliation exception found.,7790.68,2026-06-05 16:12:19
+104,T000104,MATCHED,None,LOW,No reconciliation exception found.,94.44,2026-06-05 16:12:19
+105,T000105,MATCHED,None,LOW,No reconciliation exception found.,88.03,2026-06-05 16:12:19
+106,T000106,MATCHED,None,LOW,No reconciliation exception found.,424.41,2026-06-05 16:12:19
+107,T000107,MATCHED,None,LOW,No reconciliation exception found.,380.34,2026-06-05 16:12:19
+108,T000108,MATCHED,None,LOW,No reconciliation exception found.,476.54,2026-06-05 16:12:19
+109,T000109,MATCHED,None,LOW,No reconciliation exception found.,441.09,2026-06-05 16:12:19
+110,T000110,MATCHED,None,LOW,No reconciliation exception found.,169.9,2026-06-05 16:12:19
+111,T000111,MATCHED,None,LOW,No reconciliation exception found.,710.55,2026-06-05 16:12:19
+112,T000112,EXCEPTION,Timestamp mismatch greater than 5 minutes,LOW,Timestamp mismatch is 8.0 minutes.,145.95,2026-06-05 16:12:19
+113,T000113,MATCHED,None,LOW,No reconciliation exception found.,649.63,2026-06-05 16:12:19
+114,T000114,MATCHED,None,LOW,No reconciliation exception found.,60.91,2026-06-05 16:12:19
+115,T000115,MATCHED,None,LOW,No reconciliation exception found.,485.66,2026-06-05 16:12:19
+116,T000116,MATCHED,None,LOW,No reconciliation exception found.,771.93,2026-06-05 16:12:19
+117,T000117,MATCHED,None,LOW,No reconciliation exception found.,582.44,2026-06-05 16:12:19
+118,T000118,EXCEPTION,Missing bank record,HIGH,Missing bank record for internal amount $647.03.,647.03,2026-06-05 16:12:19
+119,T000119,MATCHED,None,LOW,No reconciliation exception found.,12562.46,2026-06-05 16:12:19
+120,T000120,MATCHED,None,LOW,No reconciliation exception found.,298.95,2026-06-05 16:12:19

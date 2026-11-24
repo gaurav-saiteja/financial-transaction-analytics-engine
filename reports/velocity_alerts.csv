@@ -1,0 +1,13 @@
+id,user_id,transaction_id,alert_type,window_minutes,transaction_count,severity,reason,created_at
+1,U002,T000013,MULTI_COUNTRY_60M,60,2,HIGH,User U002 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:16
+2,U002,T000013,MULTI_DEVICE_30M,30,2,MEDIUM,User U002 used 2 devices within 30 minutes.,2026-06-05 16:12:16
+3,U003,T000097,MULTI_COUNTRY_60M,60,2,HIGH,User U003 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:16
+4,U004,T000092,MULTI_DEVICE_30M,30,2,MEDIUM,User U004 used 2 devices within 30 minutes.,2026-06-05 16:12:16
+5,U005,T000061,MULTI_COUNTRY_60M,60,2,HIGH,User U005 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:16
+6,U005,T000061,MULTI_DEVICE_30M,30,2,MEDIUM,User U005 used 2 devices within 30 minutes.,2026-06-05 16:12:16
+7,U007,T000017,MULTI_COUNTRY_60M,60,2,HIGH,User U007 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:16
+8,U013,T000010,MULTI_COUNTRY_60M,60,2,HIGH,User U013 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:16
+9,U013,T000010,MULTI_DEVICE_30M,30,2,MEDIUM,User U013 used 2 devices within 30 minutes.,2026-06-05 16:12:16
+10,U014,T000090,MULTI_DEVICE_30M,30,2,MEDIUM,User U014 used 2 devices within 30 minutes.,2026-06-05 16:12:16
+11,U025,T000103,MULTI_DEVICE_30M,30,2,MEDIUM,User U025 used 2 devices within 30 minutes.,2026-06-05 16:12:16
+12,U025,T000103,HIGH_VALUE_BURST_60M,60,2,HIGH,User U025 submitted 2 high-value transactions within 60 minutes.,2026-06-05 16:12:16

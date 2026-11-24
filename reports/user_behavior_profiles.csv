@@ -1,0 +1,28 @@
+user_id,avg_transaction_amount,median_transaction_amount,max_normal_transaction_amount,usual_country,usual_device_id,usual_payment_method,usual_transaction_hour_range,avg_daily_transaction_count,most_common_merchant,top_merchants,transaction_count,updated_at
+U001,683.65,683.65,822.5,US,D017,wire,15:00-19:59,1.0,DeltaAirlines,"DeltaAirlines, Starbucks",2,2026-06-05 16:12:09
+U002,293.87,318.07,416.01,US,D006,card,04:00-17:59,2.0,CryptoExchange,"CryptoExchange, Shell, Target",4,2026-06-05 16:12:09
+U003,289.35,156.3,654.08,US,D007,card,02:00-07:59,2.33,DeltaAirlines,"DeltaAirlines, Costco, Apple",7,2026-06-05 16:12:09
+U004,447.26,431.42,694.51,US,D030,wallet,02:00-20:59,2.0,OffshoreCasino,"OffshoreCasino, Amazon, GiftCardStore",4,2026-06-05 16:12:09
+U005,315.65,160.96,758.66,GB,D049,ach,04:00-19:59,2.0,Target,"Target, Uber, HomeDepot",6,2026-06-05 16:12:09
+U006,238.03,238.03,238.03,US,D040,ach,00:00-00:59,1.0,Uber,Uber,1,2026-06-05 16:12:09
+U007,1302.7,365.92,3240.07,US,D023,wire,08:00-20:59,3.0,Amazon,"Amazon, DoorDash, Netflix",6,2026-06-05 16:12:09
+U008,172.04,65.1,451.03,US,D033,wallet,10:00-13:59,1.5,Apple,"Apple, HomeDepot, Shell",3,2026-06-05 16:12:09
+U009,481.31,483.24,771.56,US,D041,ach,03:00-22:59,2.0,Shell,"Shell, Starbucks, HomeDepot",6,2026-06-05 16:12:09
+U010,2466.4,667.82,6020.78,US,D014,wallet,07:00-20:59,2.0,CryptoExchange,"CryptoExchange, Netflix, HomeDepot",4,2026-06-05 16:12:09
+U011,471.44,489.97,597.9,US,D038,wire,06:00-19:59,2.0,DeltaAirlines,"DeltaAirlines, Walmart, Target",6,2026-06-05 16:12:09
+U012,4817.74,4817.74,9211.07,US,D040,ach,09:00-18:59,1.0,Starbucks,"Starbucks, DeltaAirlines",2,2026-06-05 16:12:09
+U013,508.05,529.49,716.29,GB,D010,wire,05:00-14:59,1.5,Walmart,"Walmart, Starbucks, Costco",6,2026-06-05 16:12:09
+U014,2245.57,481.15,6182.59,US,D012,wire,08:00-19:59,3.0,Uber,"Uber, Target, OffshoreCasino",6,2026-06-05 16:12:09
+U015,46.95,46.95,60.91,GB,D052,ach,08:00-08:59,1.0,Apple,"Apple, Shell",2,2026-06-05 16:12:09
+U016,26.89,26.89,127.41,CA,D025,crypto,03:00-11:59,2.0,Shell,Shell,2,2026-06-05 16:12:09
+U017,514.36,618.14,714.95,US,D014,card,01:00-14:59,2.5,DeltaAirlines,"DeltaAirlines, Target, DoorDash",5,2026-06-05 16:12:09
+U018,584.71,636.21,803.24,GB,D011,ach,03:00-18:59,4.5,Apple,"Apple, HomeDepot, Starbucks",9,2026-06-05 16:12:09
+U019,452.46,441.09,757.85,US,D003,card,03:00-21:59,2.5,Amazon,"Amazon, HomeDepot, DeltaAirlines",5,2026-06-05 16:12:09
+U020,426.19,356.09,848.7,US,D005,wallet,02:00-18:59,2.33,DeltaAirlines,"DeltaAirlines, Walmart, Uber",7,2026-06-05 16:12:09
+U021,6894.24,6696.12,13212.89,CA,D046,wire,10:00-21:59,2.0,Amazon,"Amazon, OffshoreCasino, Netflix",4,2026-06-05 16:12:09
+U022,591.28,575.98,808.43,US,D030,wire,01:00-20:59,1.33,Starbucks,"Starbucks, Netflix, Costco",4,2026-06-05 16:12:09
+U023,296.01,296.01,508.13,GB,D046,wire,03:00-11:59,2.0,Costco,"Costco, DeltaAirlines",2,2026-06-05 16:12:09
+U025,2802.67,500.34,7790.68,US,D012,wallet,04:00-23:59,1.5,Starbucks,"Starbucks, Walmart, Netflix",6,2026-06-05 16:12:09
+U026,547.28,547.28,608.91,CA,D019,card,05:00-06:59,2.0,Starbucks,"Starbucks, Netflix",2,2026-06-05 16:12:09
+U027,489.76,480.69,686.43,GB,D052,wallet,09:00-17:59,1.67,Amazon,"Amazon, Starbucks, Apple",5,2026-06-05 16:12:09
+U028,492.69,547.06,707.76,US,D015,card,01:00-21:59,1.33,Shell,"Shell, DeltaAirlines, Netflix",4,2026-06-05 16:12:09

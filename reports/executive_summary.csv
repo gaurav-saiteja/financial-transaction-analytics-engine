@@ -1,0 +1,2 @@
+total_transactions,total_validation_failures,total_validation_warnings,high_risk_transactions,medium_risk_transactions,low_risk_transactions,reconciliation_exceptions,critical_reconciliation_exceptions,high_reconciliation_exceptions,velocity_alerts,high_velocity_alerts,critical_velocity_alerts,user_behavior_alerts,high_user_behavior_alerts,open_cases,escalated_cases,data_quality_issues,data_quality_score,total_transaction_volume,average_transaction_amount
+120,53,121,5,25,90,14,0,6,12,6,0,82,1,74,0,1,99.7,124652.54,1038.77

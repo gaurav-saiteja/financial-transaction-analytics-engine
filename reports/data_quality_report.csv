@@ -1,0 +1,14 @@
+id,check_name,column_name,failed_records,severity,details,created_at
+1,Missing transaction IDs,transaction_id,0,CRITICAL,0 transactions have blank or null transaction_id values.,2026-06-05 16:12:09
+2,Duplicate transaction IDs,transaction_id,0,CRITICAL,0 records share a duplicate transaction_id.,2026-06-05 16:12:09
+3,Null user IDs,user_id,0,HIGH,0 transactions have blank or null user_id values.,2026-06-05 16:12:09
+4,Missing merchant names,merchant,0,MEDIUM,0 transactions have blank or null merchant values.,2026-06-05 16:12:09
+5,Missing device IDs,device_id,0,MEDIUM,0 transactions have blank or null device_id values.,2026-06-05 16:12:09
+6,Invalid or missing amount,amount,0,HIGH,0 records have an amount that cannot be parsed as a number.,2026-06-05 16:12:09
+7,Negative or zero amounts,amount,3,HIGH,3 records have amount less than or equal to zero.,2026-06-05 16:12:09
+8,Invalid timestamp format,timestamp,0,HIGH,0 records have timestamps that cannot be parsed.,2026-06-05 16:12:09
+9,Future-dated transactions,timestamp,0,MEDIUM,0 transactions are dated after the current system time.,2026-06-05 16:12:09
+10,Invalid status values,status,0,MEDIUM,0 records have a status outside the expected payment lifecycle.,2026-06-05 16:12:09
+11,Invalid currency codes,currency,0,MEDIUM,0 records have unsupported or malformed currency codes.,2026-06-05 16:12:09
+12,Malformed IP addresses,ip_address,0,LOW,0 records have malformed IP address values.,2026-06-05 16:12:09
+13,Unexpected country codes,country,0,MEDIUM,0 records have unexpected or malformed country codes.,2026-06-05 16:12:09

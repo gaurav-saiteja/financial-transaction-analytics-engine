@@ -1,0 +1,961 @@
+id,transaction_id,rule_name,result,reason,severity,severity_reason,created_at
+1,T000001,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+2,T000001,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+3,T000001,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+4,T000001,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+5,T000001,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+6,T000001,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+7,T000001,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+8,T000002,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+9,T000002,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+10,T000002,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+11,T000002,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+12,T000002,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+13,T000002,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+14,T000002,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+15,T000003,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+16,T000003,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+17,T000003,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+18,T000003,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+19,T000003,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+20,T000003,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+21,T000003,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+22,T000004,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+23,T000004,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+24,T000004,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+25,T000004,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+26,T000004,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+27,T000004,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+28,T000004,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+29,T000005,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+30,T000005,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+31,T000005,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+32,T000005,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+33,T000005,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+34,T000005,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+35,T000005,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+36,T000006,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+37,T000006,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+38,T000006,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+39,T000006,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+40,T000006,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+41,T000006,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+42,T000006,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+43,T000007,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+44,T000007,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+45,T000007,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+46,T000007,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+47,T000007,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+48,T000007,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+49,T000007,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+50,T000008,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+51,T000008,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+52,T000008,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+53,T000008,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+54,T000008,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+55,T000008,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+56,T000008,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+57,T000009,Positive Amount Check,FAIL,Amount must be greater than zero,HIGH,Invalid amount blocks trustworthy settlement analytics.,2026-06-05 16:12:18
+58,T000009,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+59,T000009,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+60,T000009,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+61,T000009,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+62,T000009,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+63,T000009,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+64,T000010,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+65,T000010,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+66,T000010,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+67,T000010,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+68,T000010,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+69,T000010,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+70,T000010,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+71,T000011,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+72,T000011,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+73,T000011,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+74,T000011,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+75,T000011,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+76,T000011,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+77,T000011,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+78,T000012,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+79,T000012,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+80,T000012,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+81,T000012,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+82,T000012,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+83,T000012,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+84,T000012,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+85,T000013,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+86,T000013,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+87,T000013,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+88,T000013,Merchant Risk Check,WARNING,Risky merchant: CryptoExchange,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+89,T000013,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+90,T000013,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+91,T000013,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+92,T000014,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+93,T000014,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+94,T000014,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+95,T000014,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+96,T000014,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+97,T000014,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+98,T000014,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+99,T000015,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+100,T000015,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+101,T000015,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+102,T000015,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+103,T000015,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+104,T000015,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+105,T000015,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+106,T000016,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+107,T000016,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+108,T000016,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+109,T000016,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+110,T000016,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+111,T000016,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+112,T000016,Currency Check,WARNING,Non-USD currency: EUR,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+113,T000017,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+114,T000017,High Value Check,WARNING,Amount exceeds 5000,MEDIUM,High-value transactions increase financial exposure.,2026-06-05 16:12:18
+115,T000017,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+116,T000017,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+117,T000017,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+118,T000017,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+119,T000017,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+120,T000018,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+121,T000018,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+122,T000018,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+123,T000018,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+124,T000018,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+125,T000018,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+126,T000018,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+127,T000019,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+128,T000019,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+129,T000019,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+130,T000019,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+131,T000019,Country Risk Check,WARNING,Country outside US/CA: RU,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+132,T000019,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+133,T000019,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+134,T000020,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+135,T000020,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+136,T000020,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+137,T000020,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+138,T000020,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+139,T000020,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+140,T000020,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+141,T000021,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+142,T000021,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+143,T000021,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+144,T000021,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+145,T000021,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+146,T000021,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+147,T000021,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+148,T000022,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+149,T000022,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+150,T000022,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+151,T000022,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+152,T000022,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+153,T000022,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+154,T000022,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+155,T000023,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+156,T000023,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+157,T000023,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+158,T000023,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+159,T000023,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+160,T000023,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+161,T000023,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+162,T000024,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+163,T000024,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+164,T000024,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+165,T000024,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+166,T000024,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+167,T000024,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+168,T000024,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+169,T000025,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+170,T000025,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+171,T000025,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+172,T000025,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+173,T000025,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+174,T000025,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+175,T000025,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+176,T000026,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+177,T000026,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+178,T000026,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+179,T000026,Merchant Risk Check,WARNING,Risky merchant: CryptoExchange,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+180,T000026,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+181,T000026,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+182,T000026,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+183,T000027,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+184,T000027,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+185,T000027,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+186,T000027,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+187,T000027,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+188,T000027,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+189,T000027,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+190,T000028,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+191,T000028,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+192,T000028,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+193,T000028,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+194,T000028,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+195,T000028,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+196,T000028,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+197,T000029,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+198,T000029,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+199,T000029,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+200,T000029,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+201,T000029,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+202,T000029,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+203,T000029,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+204,T000030,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+205,T000030,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+206,T000030,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+207,T000030,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+208,T000030,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+209,T000030,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+210,T000030,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+211,T000031,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+212,T000031,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+213,T000031,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+214,T000031,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+215,T000031,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+216,T000031,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+217,T000031,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+218,T000032,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+219,T000032,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+220,T000032,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+221,T000032,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+222,T000032,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+223,T000032,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+224,T000032,Currency Check,WARNING,Non-USD currency: EUR,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+225,T000033,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+226,T000033,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+227,T000033,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+228,T000033,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+229,T000033,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+230,T000033,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+231,T000033,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+232,T000034,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+233,T000034,High Value Check,WARNING,Amount exceeds 5000,MEDIUM,High-value transactions increase financial exposure.,2026-06-05 16:12:18
+234,T000034,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+235,T000034,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+236,T000034,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+237,T000034,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+238,T000034,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+239,T000035,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+240,T000035,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+241,T000035,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+242,T000035,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+243,T000035,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+244,T000035,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+245,T000035,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+246,T000036,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+247,T000036,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+248,T000036,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+249,T000036,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+250,T000036,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+251,T000036,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+252,T000036,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+253,T000037,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+254,T000037,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+255,T000037,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+256,T000037,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+257,T000037,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+258,T000037,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+259,T000037,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+260,T000038,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+261,T000038,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+262,T000038,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+263,T000038,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+264,T000038,Country Risk Check,WARNING,Country outside US/CA: NG,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+265,T000038,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+266,T000038,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+267,T000039,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+268,T000039,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+269,T000039,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+270,T000039,Merchant Risk Check,WARNING,Risky merchant: CryptoExchange,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+271,T000039,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+272,T000039,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+273,T000039,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+274,T000040,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+275,T000040,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+276,T000040,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+277,T000040,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+278,T000040,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+279,T000040,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+280,T000040,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+281,T000041,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+282,T000041,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+283,T000041,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+284,T000041,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+285,T000041,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+286,T000041,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+287,T000041,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+288,T000042,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+289,T000042,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+290,T000042,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+291,T000042,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+292,T000042,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+293,T000042,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+294,T000042,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+295,T000043,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+296,T000043,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+297,T000043,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+298,T000043,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+299,T000043,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+300,T000043,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+301,T000043,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+302,T000044,Positive Amount Check,FAIL,Amount must be greater than zero,HIGH,Invalid amount blocks trustworthy settlement analytics.,2026-06-05 16:12:18
+303,T000044,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+304,T000044,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+305,T000044,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+306,T000044,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+307,T000044,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+308,T000044,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+309,T000045,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+310,T000045,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+311,T000045,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+312,T000045,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+313,T000045,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+314,T000045,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+315,T000045,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+316,T000046,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+317,T000046,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+318,T000046,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+319,T000046,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+320,T000046,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+321,T000046,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+322,T000046,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+323,T000047,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+324,T000047,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+325,T000047,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+326,T000047,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+327,T000047,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+328,T000047,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+329,T000047,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+330,T000048,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+331,T000048,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+332,T000048,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+333,T000048,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+334,T000048,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+335,T000048,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+336,T000048,Currency Check,WARNING,Non-USD currency: EUR,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+337,T000049,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+338,T000049,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+339,T000049,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+340,T000049,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+341,T000049,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+342,T000049,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+343,T000049,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+344,T000050,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+345,T000050,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+346,T000050,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+347,T000050,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+348,T000050,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+349,T000050,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+350,T000050,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+351,T000051,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+352,T000051,High Value Check,WARNING,Amount exceeds 5000,HIGH,"High-value warning exceeds $10,000.",2026-06-05 16:12:18
+353,T000051,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+354,T000051,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+355,T000051,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+356,T000051,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+357,T000051,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+358,T000052,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+359,T000052,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+360,T000052,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+361,T000052,Merchant Risk Check,WARNING,Risky merchant: OffshoreCasino,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+362,T000052,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+363,T000052,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+364,T000052,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+365,T000053,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+366,T000053,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+367,T000053,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+368,T000053,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+369,T000053,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+370,T000053,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+371,T000053,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+372,T000054,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+373,T000054,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+374,T000054,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+375,T000054,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+376,T000054,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+377,T000054,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+378,T000054,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+379,T000055,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+380,T000055,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+381,T000055,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+382,T000055,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+383,T000055,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+384,T000055,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+385,T000055,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+386,T000056,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+387,T000056,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+388,T000056,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+389,T000056,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+390,T000056,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+391,T000056,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+392,T000056,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+393,T000057,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+394,T000057,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+395,T000057,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+396,T000057,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+397,T000057,Country Risk Check,WARNING,Country outside US/CA: IR,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+398,T000057,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+399,T000057,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+400,T000058,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+401,T000058,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+402,T000058,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+403,T000058,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+404,T000058,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+405,T000058,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+406,T000058,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+407,T000059,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+408,T000059,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+409,T000059,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+410,T000059,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+411,T000059,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+412,T000059,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+413,T000059,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+414,T000060,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+415,T000060,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+416,T000060,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+417,T000060,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+418,T000060,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+419,T000060,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+420,T000060,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+421,T000061,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+422,T000061,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+423,T000061,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+424,T000061,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+425,T000061,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+426,T000061,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+427,T000061,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+428,T000062,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+429,T000062,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+430,T000062,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+431,T000062,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+432,T000062,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+433,T000062,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+434,T000062,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+435,T000063,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+436,T000063,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+437,T000063,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+438,T000063,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+439,T000063,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+440,T000063,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+441,T000063,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+442,T000064,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+443,T000064,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+444,T000064,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+445,T000064,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+446,T000064,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+447,T000064,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+448,T000064,Currency Check,WARNING,Non-USD currency: EUR,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+449,T000065,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+450,T000065,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+451,T000065,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+452,T000065,Merchant Risk Check,WARNING,Risky merchant: GiftCardStore,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+453,T000065,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+454,T000065,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+455,T000065,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+456,T000066,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+457,T000066,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+458,T000066,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+459,T000066,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+460,T000066,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+461,T000066,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+462,T000066,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+463,T000067,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+464,T000067,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+465,T000067,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+466,T000067,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+467,T000067,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+468,T000067,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+469,T000067,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+470,T000068,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+471,T000068,High Value Check,WARNING,Amount exceeds 5000,HIGH,"High-value warning exceeds $10,000.",2026-06-05 16:12:18
+472,T000068,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+473,T000068,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+474,T000068,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+475,T000068,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+476,T000068,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+477,T000069,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+478,T000069,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+479,T000069,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+480,T000069,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+481,T000069,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+482,T000069,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+483,T000069,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+484,T000070,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+485,T000070,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+486,T000070,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+487,T000070,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+488,T000070,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+489,T000070,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+490,T000070,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+491,T000071,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+492,T000071,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+493,T000071,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+494,T000071,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+495,T000071,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+496,T000071,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+497,T000071,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+498,T000072,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+499,T000072,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+500,T000072,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+501,T000072,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+502,T000072,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+503,T000072,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+504,T000072,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+505,T000073,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+506,T000073,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+507,T000073,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+508,T000073,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+509,T000073,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+510,T000073,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+511,T000073,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+512,T000074,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+513,T000074,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+514,T000074,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+515,T000074,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+516,T000074,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+517,T000074,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+518,T000074,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+519,T000075,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+520,T000075,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+521,T000075,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+522,T000075,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+523,T000075,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+524,T000075,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+525,T000075,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+526,T000076,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+527,T000076,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+528,T000076,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+529,T000076,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+530,T000076,Country Risk Check,WARNING,Country outside US/CA: IR,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+531,T000076,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+532,T000076,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+533,T000077,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+534,T000077,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+535,T000077,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+536,T000077,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+537,T000077,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+538,T000077,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+539,T000077,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+540,T000078,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+541,T000078,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+542,T000078,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+543,T000078,Merchant Risk Check,WARNING,Risky merchant: OffshoreCasino,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+544,T000078,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+545,T000078,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+546,T000078,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+547,T000079,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+548,T000079,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+549,T000079,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+550,T000079,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+551,T000079,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+552,T000079,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+553,T000079,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+554,T000080,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+555,T000080,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+556,T000080,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+557,T000080,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+558,T000080,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+559,T000080,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+560,T000080,Currency Check,WARNING,Non-USD currency: EUR,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+561,T000081,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+562,T000081,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+563,T000081,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+564,T000081,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+565,T000081,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+566,T000081,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+567,T000081,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+568,T000082,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+569,T000082,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+570,T000082,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+571,T000082,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+572,T000082,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+573,T000082,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+574,T000082,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+575,T000083,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+576,T000083,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+577,T000083,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+578,T000083,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+579,T000083,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+580,T000083,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+581,T000083,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+582,T000084,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+583,T000084,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+584,T000084,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+585,T000084,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+586,T000084,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+587,T000084,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+588,T000084,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+589,T000085,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+590,T000085,High Value Check,WARNING,Amount exceeds 5000,MEDIUM,High-value transactions increase financial exposure.,2026-06-05 16:12:18
+591,T000085,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+592,T000085,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+593,T000085,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+594,T000085,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+595,T000085,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+596,T000086,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+597,T000086,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+598,T000086,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+599,T000086,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+600,T000086,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+601,T000086,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+602,T000086,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+603,T000087,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+604,T000087,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+605,T000087,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+606,T000087,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+607,T000087,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+608,T000087,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+609,T000087,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+610,T000088,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+611,T000088,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+612,T000088,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+613,T000088,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+614,T000088,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+615,T000088,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+616,T000088,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+617,T000089,Positive Amount Check,FAIL,Amount must be greater than zero,HIGH,Invalid amount blocks trustworthy settlement analytics.,2026-06-05 16:12:18
+618,T000089,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+619,T000089,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+620,T000089,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+621,T000089,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+622,T000089,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+623,T000089,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+624,T000090,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+625,T000090,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+626,T000090,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+627,T000090,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+628,T000090,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+629,T000090,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+630,T000090,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+631,T000091,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+632,T000091,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+633,T000091,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+634,T000091,Merchant Risk Check,WARNING,Risky merchant: OffshoreCasino,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+635,T000091,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+636,T000091,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+637,T000091,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+638,T000092,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+639,T000092,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+640,T000092,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+641,T000092,Merchant Risk Check,WARNING,Risky merchant: OffshoreCasino,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+642,T000092,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+643,T000092,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+644,T000092,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+645,T000093,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+646,T000093,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+647,T000093,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+648,T000093,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+649,T000093,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+650,T000093,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+651,T000093,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+652,T000094,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+653,T000094,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+654,T000094,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+655,T000094,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+656,T000094,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+657,T000094,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+658,T000094,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+659,T000095,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+660,T000095,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+661,T000095,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+662,T000095,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+663,T000095,Country Risk Check,WARNING,Country outside US/CA: IR,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+664,T000095,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+665,T000095,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+666,T000096,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+667,T000096,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+668,T000096,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+669,T000096,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+670,T000096,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+671,T000096,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+672,T000096,Currency Check,WARNING,Non-USD currency: EUR,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+673,T000097,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+674,T000097,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+675,T000097,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+676,T000097,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+677,T000097,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+678,T000097,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+679,T000097,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+680,T000098,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+681,T000098,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+682,T000098,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+683,T000098,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+684,T000098,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+685,T000098,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+686,T000098,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+687,T000099,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+688,T000099,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+689,T000099,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+690,T000099,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+691,T000099,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+692,T000099,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+693,T000099,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+694,T000100,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+695,T000100,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+696,T000100,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+697,T000100,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+698,T000100,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+699,T000100,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+700,T000100,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+701,T000101,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+702,T000101,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+703,T000101,Status Check,FAIL,Transaction status is declined,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+704,T000101,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+705,T000101,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+706,T000101,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+707,T000101,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+708,T000102,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+709,T000102,High Value Check,WARNING,Amount exceeds 5000,MEDIUM,High-value transactions increase financial exposure.,2026-06-05 16:12:18
+710,T000102,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+711,T000102,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+712,T000102,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+713,T000102,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+714,T000102,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+715,T000103,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+716,T000103,High Value Check,WARNING,Amount exceeds 5000,MEDIUM,High-value transactions increase financial exposure.,2026-06-05 16:12:18
+717,T000103,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+718,T000103,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+719,T000103,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+720,T000103,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+721,T000103,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+722,T000104,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+723,T000104,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+724,T000104,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+725,T000104,Merchant Risk Check,WARNING,Risky merchant: GiftCardStore,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+726,T000104,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+727,T000104,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+728,T000104,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+729,T000105,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+730,T000105,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+731,T000105,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+732,T000105,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+733,T000105,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+734,T000105,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+735,T000105,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+736,T000106,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+737,T000106,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+738,T000106,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+739,T000106,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+740,T000106,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+741,T000106,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+742,T000106,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+743,T000107,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+744,T000107,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+745,T000107,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+746,T000107,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+747,T000107,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+748,T000107,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+749,T000107,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+750,T000108,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+751,T000108,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+752,T000108,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+753,T000108,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+754,T000108,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+755,T000108,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+756,T000108,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+757,T000109,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+758,T000109,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+759,T000109,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+760,T000109,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+761,T000109,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+762,T000109,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+763,T000109,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+764,T000110,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+765,T000110,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+766,T000110,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+767,T000110,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+768,T000110,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+769,T000110,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+770,T000110,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+771,T000111,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+772,T000111,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+773,T000111,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+774,T000111,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+775,T000111,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+776,T000111,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+777,T000111,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+778,T000112,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+779,T000112,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+780,T000112,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+781,T000112,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+782,T000112,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+783,T000112,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+784,T000112,Currency Check,WARNING,Non-USD currency: CAD,LOW,Non-USD currency requires conversion/settlement awareness.,2026-06-05 16:12:18
+785,T000113,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+786,T000113,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+787,T000113,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+788,T000113,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+789,T000113,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+790,T000113,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+791,T000113,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+792,T000114,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+793,T000114,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+794,T000114,Status Check,FAIL,Transaction status is failed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+795,T000114,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+796,T000114,Country Risk Check,WARNING,Country outside US/CA: IR,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+797,T000114,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+798,T000114,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+799,T000115,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+800,T000115,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+801,T000115,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+802,T000115,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+803,T000115,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+804,T000115,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+805,T000115,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+806,T000116,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+807,T000116,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+808,T000116,Status Check,FAIL,Transaction status is reversed,HIGH,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:18
+809,T000116,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+810,T000116,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+811,T000116,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+812,T000116,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+813,T000117,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+814,T000117,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+815,T000117,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+816,T000117,Merchant Risk Check,WARNING,Risky merchant: GiftCardStore,MEDIUM,Risk-listed merchant requires additional review.,2026-06-05 16:12:18
+817,T000117,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+818,T000117,Late Night Check,WARNING,Transaction occurred between 12 AM and 5 AM,LOW,Late-night transaction is a behavioral warning.,2026-06-05 16:12:18
+819,T000117,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+820,T000118,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+821,T000118,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+822,T000118,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+823,T000118,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+824,T000118,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+825,T000118,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+826,T000118,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+827,T000119,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+828,T000119,High Value Check,WARNING,Amount exceeds 5000,HIGH,"High-value warning exceeds $10,000.",2026-06-05 16:12:18
+829,T000119,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+830,T000119,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+831,T000119,Country Risk Check,WARNING,Country outside US/CA: GB,MEDIUM,Country outside normal operating region.,2026-06-05 16:12:18
+832,T000119,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+833,T000119,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+834,T000120,Positive Amount Check,PASS,Amount is greater than zero,LOW,Control passed.,2026-06-05 16:12:18
+835,T000120,High Value Check,PASS,Amount is within normal range,LOW,Control passed.,2026-06-05 16:12:18
+836,T000120,Status Check,PASS,Transaction status is acceptable,LOW,Control passed.,2026-06-05 16:12:18
+837,T000120,Merchant Risk Check,PASS,Merchant is not on risk list,LOW,Control passed.,2026-06-05 16:12:18
+838,T000120,Country Risk Check,PASS,Country is within allowed region,LOW,Control passed.,2026-06-05 16:12:18
+839,T000120,Late Night Check,PASS,Transaction occurred during normal hours,LOW,Control passed.,2026-06-05 16:12:18
+840,T000120,Currency Check,PASS,Currency is USD,LOW,Control passed.,2026-06-05 16:12:18
+841,T000001,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+842,T000002,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+843,T000003,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+844,T000004,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+845,T000005,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+846,T000006,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+847,T000007,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+848,T000008,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+849,T000009,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+850,T000010,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+851,T000011,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+852,T000012,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+853,T000013,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+854,T000014,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+855,T000015,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+856,T000016,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+857,T000017,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+858,T000018,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+859,T000019,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+860,T000020,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+861,T000021,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+862,T000022,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+863,T000023,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+864,T000024,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+865,T000025,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+866,T000026,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+867,T000027,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+868,T000028,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+869,T000029,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+870,T000030,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+871,T000031,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+872,T000032,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+873,T000033,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+874,T000034,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+875,T000035,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+876,T000036,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+877,T000037,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+878,T000038,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+879,T000039,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+880,T000040,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+881,T000041,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+882,T000042,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+883,T000043,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+884,T000044,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+885,T000045,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+886,T000046,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+887,T000047,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+888,T000048,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+889,T000049,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+890,T000050,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+891,T000051,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+892,T000052,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+893,T000053,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+894,T000054,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+895,T000055,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+896,T000056,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+897,T000057,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+898,T000058,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+899,T000059,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+900,T000060,Duplicate Transaction Check,WARNING,"Same user, amount, and merchant within five minutes",MEDIUM,Duplicate-like pattern may indicate replay or processing issue.,2026-06-05 16:12:18
+901,T000061,Duplicate Transaction Check,WARNING,"Same user, amount, and merchant within five minutes",MEDIUM,Duplicate-like pattern may indicate replay or processing issue.,2026-06-05 16:12:18
+902,T000062,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+903,T000063,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+904,T000064,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+905,T000065,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+906,T000066,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+907,T000067,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+908,T000068,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+909,T000069,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+910,T000070,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+911,T000071,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+912,T000072,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+913,T000073,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+914,T000074,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+915,T000075,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+916,T000076,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+917,T000077,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+918,T000078,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+919,T000079,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+920,T000080,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+921,T000081,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+922,T000082,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+923,T000083,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+924,T000084,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+925,T000085,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+926,T000086,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+927,T000087,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+928,T000088,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+929,T000089,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+930,T000090,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+931,T000091,Duplicate Transaction Check,WARNING,"Same user, amount, and merchant within five minutes",MEDIUM,Duplicate-like pattern may indicate replay or processing issue.,2026-06-05 16:12:18
+932,T000092,Duplicate Transaction Check,WARNING,"Same user, amount, and merchant within five minutes",MEDIUM,Duplicate-like pattern may indicate replay or processing issue.,2026-06-05 16:12:18
+933,T000093,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+934,T000094,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+935,T000095,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+936,T000096,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+937,T000097,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+938,T000098,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+939,T000099,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+940,T000100,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+941,T000101,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+942,T000102,Duplicate Transaction Check,WARNING,"Same user, amount, and merchant within five minutes",MEDIUM,Duplicate-like pattern may indicate replay or processing issue.,2026-06-05 16:12:18
+943,T000103,Duplicate Transaction Check,WARNING,"Same user, amount, and merchant within five minutes",MEDIUM,Duplicate-like pattern may indicate replay or processing issue.,2026-06-05 16:12:18
+944,T000104,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+945,T000105,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+946,T000106,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+947,T000107,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+948,T000108,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+949,T000109,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+950,T000110,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+951,T000111,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+952,T000112,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+953,T000113,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+954,T000114,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+955,T000115,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+956,T000116,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+957,T000117,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+958,T000118,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+959,T000119,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18
+960,T000120,Duplicate Transaction Check,PASS,No duplicate pattern detected,LOW,Control passed.,2026-06-05 16:12:18

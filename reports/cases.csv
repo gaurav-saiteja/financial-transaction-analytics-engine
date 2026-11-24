@@ -1,0 +1,75 @@
+case_id,transaction_id,case_type,severity,assigned_to,review_status,review_notes,created_at,updated_at
+CASE-00001,T000017,FRAUD_RISK,HIGH,Analyst_1,OPEN,High-value amount; Risky country; Non-USD currency; IsolationForest anomaly,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00002,T000022,FRAUD_RISK,HIGH,Analyst_2,OPEN,Risky country; Late-night transaction; Failed/reversed/declined status; Crypto payment method,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00003,T000065,FRAUD_RISK,HIGH,Analyst_3,OPEN,Risky merchant; Risky country; Late-night transaction; Failed/reversed/declined status; IsolationForest anomaly,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00004,T000117,FRAUD_RISK,HIGH,Analyst_1,OPEN,Risky merchant; Risky country; Late-night transaction; IsolationForest anomaly,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00005,T000119,FRAUD_RISK,HIGH,Analyst_2,OPEN,High-value amount; Risky country; IsolationForest anomaly,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00006,T000085,FRAUD_RISK,HIGH,Analyst_3,OPEN,Amount is 3.3x user average; New country compared with user baseline; New device used; New payment method used; Transaction outside usual active hours; Merchant outside user's common merchants,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00007,T000013,VELOCITY_ALERT,HIGH,Analyst_1,OPEN,User U002 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00008,T000097,VELOCITY_ALERT,HIGH,Analyst_2,OPEN,User U003 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00009,T000061,VELOCITY_ALERT,HIGH,Analyst_3,OPEN,User U005 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00010,T000017,VELOCITY_ALERT,HIGH,Analyst_1,OPEN,User U007 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00011,T000010,VELOCITY_ALERT,HIGH,Analyst_2,OPEN,User U013 transacted from 2 countries within 60 minutes.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00012,T000103,VELOCITY_ALERT,HIGH,Analyst_3,OPEN,User U025 submitted 2 high-value transactions within 60 minutes.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00013,T000012,RECONCILIATION_EXCEPTION,HIGH,Analyst_1,OPEN,Missing bank record for internal amount $867.70.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00014,T000041,RECONCILIATION_EXCEPTION,HIGH,Analyst_2,OPEN,Internal status does not match expected bank settlement status.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00015,T000047,RECONCILIATION_EXCEPTION,HIGH,Analyst_3,OPEN,Missing bank record for internal amount $451.03.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00016,T000083,RECONCILIATION_EXCEPTION,HIGH,Analyst_1,OPEN,Missing bank record for internal amount $346.14.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00017,T000088,RECONCILIATION_EXCEPTION,HIGH,Analyst_2,OPEN,Internal status does not match expected bank settlement status.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00018,T000118,RECONCILIATION_EXCEPTION,HIGH,Analyst_3,OPEN,Missing bank record for internal amount $647.03.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00019,T000003,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00020,T000005,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00021,T000006,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00022,T000007,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00023,T000009,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,Invalid amount blocks trustworthy settlement analytics.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00024,T000010,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00025,T000011,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00026,T000012,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00027,T000014,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00028,T000018,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00029,T000022,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00030,T000023,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00031,T000026,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00032,T000029,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00033,T000036,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00034,T000037,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00035,T000039,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00036,T000040,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00037,T000041,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00038,T000044,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Invalid amount blocks trustworthy settlement analytics.; Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00039,T000045,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00040,T000047,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00041,T000050,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00042,T000051,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"High-value warning exceeds $10,000.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00043,T000052,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00044,T000053,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00045,T000054,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00046,T000057,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00047,T000060,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00048,T000063,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00049,T000065,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00050,T000068,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"High-value warning exceeds $10,000.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00051,T000069,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00052,T000070,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00053,T000071,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00054,T000073,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00055,T000076,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00056,T000077,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00057,T000079,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00058,T000088,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00059,T000089,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,Invalid amount blocks trustworthy settlement analytics.,2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00060,T000092,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00061,T000093,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00062,T000096,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00063,T000100,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00064,T000101,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00065,T000102,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00066,T000103,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00067,T000104,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00068,T000107,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00069,T000110,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00070,T000113,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00071,T000114,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00072,T000116,DATA_QUALITY_ISSUE,HIGH,Analyst_3,OPEN,"Failed, declined, or reversed status requires operational review.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00073,T000119,DATA_QUALITY_ISSUE,HIGH,Analyst_1,OPEN,"High-value warning exceeds $10,000.",2026-06-05 16:12:29,2026-06-05 16:12:29
+CASE-00074,,DATA_QUALITY_ISSUE,HIGH,Analyst_2,OPEN,3 records have amount less than or equal to zero.,2026-06-05 16:12:29,2026-06-05 16:12:29

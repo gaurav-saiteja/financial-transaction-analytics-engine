@@ -1,0 +1,83 @@
+id,user_id,transaction_id,alert_type,risk_score,risk_level,reason,created_at
+1,U027,T000004,USER_BEHAVIOR_DEVIATION,36.0,MEDIUM,New country compared with user baseline; New device used,2026-06-05 16:12:11
+2,U027,T000007,USER_BEHAVIOR_DEVIATION,32.0,LOW,New country compared with user baseline; New payment method used,2026-06-05 16:12:11
+3,U013,T000010,USER_BEHAVIOR_DEVIATION,50.0,MEDIUM,New country compared with user baseline; New device used; New payment method used,2026-06-05 16:12:11
+4,U017,T000014,USER_BEHAVIOR_DEVIATION,26.0,LOW,New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+5,U011,T000015,USER_BEHAVIOR_DEVIATION,32.0,LOW,New country compared with user baseline; New payment method used,2026-06-05 16:12:11
+6,U007,T000017,USER_BEHAVIOR_DEVIATION,53.0,MEDIUM,Amount is 4.7x user average; New country compared with user baseline,2026-06-05 16:12:11
+7,U008,T000018,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+8,U002,T000019,USER_BEHAVIOR_DEVIATION,36.0,MEDIUM,New country compared with user baseline; New device used,2026-06-05 16:12:11
+9,U019,T000021,USER_BEHAVIOR_DEVIATION,48.0,MEDIUM,New country compared with user baseline; New device used; Transaction outside usual active hours,2026-06-05 16:12:11
+10,U003,T000022,USER_BEHAVIOR_DEVIATION,50.0,MEDIUM,New country compared with user baseline; New device used; New payment method used,2026-06-05 16:12:11
+11,U007,T000023,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+12,U020,T000025,USER_BEHAVIOR_DEVIATION,30.0,LOW,New device used; Transaction outside usual active hours,2026-06-05 16:12:11
+13,U025,T000027,USER_BEHAVIOR_DEVIATION,36.0,MEDIUM,New country compared with user baseline; New device used,2026-06-05 16:12:11
+14,U018,T000028,USER_BEHAVIOR_DEVIATION,48.0,MEDIUM,New country compared with user baseline; New device used; Transaction outside usual active hours,2026-06-05 16:12:11
+15,U007,T000029,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+16,U014,T000030,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New country compared with user baseline; New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+17,U009,T000032,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+18,U020,T000033,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+19,U018,T000035,USER_BEHAVIOR_DEVIATION,62.0,MEDIUM,New country compared with user baseline; New device used; New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+20,U010,T000036,USER_BEHAVIOR_DEVIATION,36.0,MEDIUM,New country compared with user baseline; New device used,2026-06-05 16:12:11
+21,U010,T000037,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New device used; New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+22,U014,T000038,USER_BEHAVIOR_DEVIATION,48.0,MEDIUM,New country compared with user baseline; New device used; Transaction outside usual active hours,2026-06-05 16:12:11
+23,U018,T000039,USER_BEHAVIOR_DEVIATION,58.0,MEDIUM,New country compared with user baseline; New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+24,U027,T000040,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+25,U009,T000041,USER_BEHAVIOR_DEVIATION,30.0,LOW,New device used; Transaction outside usual active hours,2026-06-05 16:12:11
+26,U019,T000045,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+27,U013,T000049,USER_BEHAVIOR_DEVIATION,56.0,MEDIUM,New country compared with user baseline; New device used; Transaction outside usual active hours; Merchant outside user's common merchants,2026-06-05 16:12:11
+28,U018,T000050,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+29,U021,T000051,USER_BEHAVIOR_DEVIATION,26.0,LOW,New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+30,U017,T000054,USER_BEHAVIOR_DEVIATION,26.0,LOW,New device used; Merchant outside user's common merchants,2026-06-05 16:12:11
+31,U003,T000055,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New country compared with user baseline; New device used; Merchant outside user's common merchants,2026-06-05 16:12:11
+32,U007,T000057,USER_BEHAVIOR_DEVIATION,62.0,MEDIUM,New country compared with user baseline; New device used; New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+33,U009,T000058,USER_BEHAVIOR_DEVIATION,30.0,LOW,New device used; Transaction outside usual active hours,2026-06-05 16:12:11
+34,U011,T000059,USER_BEHAVIOR_DEVIATION,30.0,LOW,New device used; Transaction outside usual active hours,2026-06-05 16:12:11
+35,U005,T000060,USER_BEHAVIOR_DEVIATION,36.0,MEDIUM,New country compared with user baseline; New device used,2026-06-05 16:12:11
+36,U005,T000061,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+37,U022,T000062,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+38,U002,T000063,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New device used; New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+39,U018,T000064,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+40,U004,T000065,USER_BEHAVIOR_DEVIATION,50.0,MEDIUM,New country compared with user baseline; New device used; New payment method used,2026-06-05 16:12:11
+41,U020,T000066,USER_BEHAVIOR_DEVIATION,50.0,MEDIUM,New country compared with user baseline; New device used; New payment method used,2026-06-05 16:12:11
+42,U019,T000067,USER_BEHAVIOR_DEVIATION,58.0,MEDIUM,New country compared with user baseline; New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+43,U014,T000068,USER_BEHAVIOR_DEVIATION,67.0,MEDIUM,Amount is 5.2x user average; New device used; New payment method used,2026-06-05 16:12:11
+44,U022,T000069,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New device used; New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+45,U009,T000070,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New country compared with user baseline; New device used; Merchant outside user's common merchants,2026-06-05 16:12:11
+46,U018,T000071,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+47,U017,T000072,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+48,U009,T000073,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+49,U018,T000074,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+50,U011,T000075,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+51,U028,T000076,USER_BEHAVIOR_DEVIATION,36.0,MEDIUM,New country compared with user baseline; New device used,2026-06-05 16:12:11
+52,U021,T000078,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+53,U002,T000079,USER_BEHAVIOR_DEVIATION,38.0,MEDIUM,New device used; Transaction outside usual active hours; Merchant outside user's common merchants,2026-06-05 16:12:11
+54,U028,T000082,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New device used; New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+55,U027,T000083,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+56,U020,T000084,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+57,U010,T000085,USER_BEHAVIOR_DEVIATION,100.0,HIGH,Amount is 3.3x user average; New country compared with user baseline; New device used; New payment method used; Transaction outside usual active hours; Merchant outside user's common merchants,2026-06-05 16:12:11
+58,U003,T000087,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+59,U022,T000088,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+60,U005,T000089,USER_BEHAVIOR_DEVIATION,62.0,MEDIUM,New country compared with user baseline; New device used; New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+61,U014,T000090,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+62,U004,T000092,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+63,U025,T000093,USER_BEHAVIOR_DEVIATION,48.0,MEDIUM,New country compared with user baseline; New device used; Transaction outside usual active hours,2026-06-05 16:12:11
+64,U005,T000094,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+65,U021,T000096,USER_BEHAVIOR_DEVIATION,36.0,MEDIUM,New country compared with user baseline; New device used,2026-06-05 16:12:11
+66,U003,T000097,USER_BEHAVIOR_DEVIATION,50.0,MEDIUM,New country compared with user baseline; New device used; New payment method used,2026-06-05 16:12:11
+67,U028,T000098,USER_BEHAVIOR_DEVIATION,36.0,MEDIUM,New country compared with user baseline; New device used,2026-06-05 16:12:11
+68,U011,T000099,USER_BEHAVIOR_DEVIATION,48.0,MEDIUM,New country compared with user baseline; New device used; Transaction outside usual active hours,2026-06-05 16:12:11
+69,U018,T000100,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New country compared with user baseline; New device used; Merchant outside user's common merchants,2026-06-05 16:12:11
+70,U020,T000101,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New country compared with user baseline; New device used; Merchant outside user's common merchants,2026-06-05 16:12:11
+71,U025,T000102,USER_BEHAVIOR_DEVIATION,32.0,LOW,New device used; New payment method used,2026-06-05 16:12:11
+72,U014,T000104,USER_BEHAVIOR_DEVIATION,26.0,LOW,New device used; Merchant outside user's common merchants,2026-06-05 16:12:11
+73,U025,T000105,USER_BEHAVIOR_DEVIATION,50.0,MEDIUM,New country compared with user baseline; New device used; New payment method used,2026-06-05 16:12:11
+74,U007,T000107,USER_BEHAVIOR_DEVIATION,44.0,MEDIUM,New device used; New payment method used; Transaction outside usual active hours,2026-06-05 16:12:11
+75,U013,T000108,USER_BEHAVIOR_DEVIATION,50.0,MEDIUM,New country compared with user baseline; New device used; New payment method used,2026-06-05 16:12:11
+76,U019,T000109,USER_BEHAVIOR_DEVIATION,52.0,MEDIUM,New device used; New payment method used; Transaction outside usual active hours; Merchant outside user's common merchants,2026-06-05 16:12:11
+77,U003,T000110,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+78,U003,T000111,USER_BEHAVIOR_DEVIATION,40.0,MEDIUM,New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+79,U005,T000113,USER_BEHAVIOR_DEVIATION,58.0,MEDIUM,New country compared with user baseline; New device used; New payment method used; Merchant outside user's common merchants,2026-06-05 16:12:11
+80,U013,T000117,USER_BEHAVIOR_DEVIATION,52.0,MEDIUM,New device used; New payment method used; Transaction outside usual active hours; Merchant outside user's common merchants,2026-06-05 16:12:11
+81,U011,T000118,USER_BEHAVIOR_DEVIATION,32.0,LOW,New country compared with user baseline; New payment method used,2026-06-05 16:12:11
+82,U021,T000119,USER_BEHAVIOR_DEVIATION,56.0,MEDIUM,New country compared with user baseline; New device used; Transaction outside usual active hours; Merchant outside user's common merchants,2026-06-05 16:12:11
